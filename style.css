@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('https://res.cloudinary.com/dks0zmaje/image/upload/v1732668565/spacious-corridor-with-bokeh-effect_p6e87x.jpg');
+    background-size: cover;
+}
+
+header {
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Bree serif";
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background-color: #337d7d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.room-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    margin: 5px;
+}
+
+.room {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 35%;
+    text-align: center;
+}
+
+.room img {
+    width: 100%;
+    height: 60%;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    padding-bottom: 8px;
+}
+
+/* Aout section css*/
+.about-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+.about-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #28a745;
+
+}
+
+.about-section p {
+    line-height: 1.6;
+}
+
+.amenities-list,
+.awards-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amenities-list li,
+.awards-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 8px solid #28a745;
+    background-color: #777676;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+}
+
+/*Contact section*/
+
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #337d7d;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #337d7d;
+}
